@@ -1,0 +1,73 @@
+html{
+    height: 100%;
+}
+
+body{
+    position: relative;
+    padding-bottom: 75px;
+    min-height: 100%;
+}
+
+/* header用に追加 */
+.header_nav {
+    background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  .global_nav_item {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .global_nav_item:hover {
+    background: #fff;
+    color: #42210b;
+  }
+  .global_nav {
+    display: flex;
+    align-items: stretch;
+  }
+  .logo {
+    width: 120px;
+    display: flex;
+    align-items: center;
+  }
+  .logo img{
+    width: 100%;
+  } 
+
+/* 「footer」用に追加 */
+.footer{
+    background-color: #251e19;
+    color: #fff;
+    height: 75px;
+  }
+
+  .footer p{
+    text-align: center;
+    font-size: 10px;
+  }
+  .footer_nav_menu{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer_nav_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 10px;
+    color: #fff;
+  }
+
+  .footer_logo {
+    width: 80px;
+  }
